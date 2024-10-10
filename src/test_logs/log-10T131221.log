@@ -1,0 +1,21 @@
+13:12:22.024 [Test worker] INFO  com.phonebook.TestBase -- *************************TESTING IN  PROGRESS**********************
+13:12:22.124 [Test worker] INFO  com.phonebook.TestBase -- Test is started:[createAccountNegativeTest]
+13:12:27.313 [Test worker] WARN  com.phonebook.core.BaseHelper -- Alert has text: [User already exist]
+13:12:32.435 [Test worker] INFO  com.phonebook.TestBase -- Test is started: [createAccountNegativeTest], with data: []
+13:12:32.436 [Test worker] INFO  com.phonebook.TestBase -- Test is PASSED: [createAccountNegativeTest]
+13:12:32.437 [Test worker] INFO  com.phonebook.TestBase -- Test is ended: [createAccountNegativeTest]
+13:12:32.458 [Test worker] INFO  com.phonebook.TestBase -- Test is started:[loginExistedUserPositiveTest1]
+13:12:35.996 [Test worker] INFO  com.phonebook.TestBase -- Test is started: [loginExistedUserPositiveTest1], with data: []
+13:12:35.997 [Test worker] INFO  com.phonebook.TestBase -- Test is PASSED: [loginExistedUserPositiveTest1]
+13:12:35.998 [Test worker] INFO  com.phonebook.TestBase -- Test is ended: [loginExistedUserPositiveTest1]
+13:12:36.003 [Test worker] INFO  com.phonebook.TestBase -- Test is started:[loginExistedUserPositiveTest2]
+13:12:44.090 [Test worker] INFO  com.phonebook.TestBase -- Test is started: [loginExistedUserPositiveTest2], with data: []
+13:12:44.104 [Test worker] INFO  com.phonebook.core.BaseHelper -- Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c711034c6bb2619509c4f6999844fa54, getAlertText []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\elzar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59788}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59788/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c711034c6bb2619509c4f6999844fa54
+13:12:44.106 [Test worker] INFO  com.phonebook.TestBase -- No alert present.
+13:12:44.134 [Test worker] INFO  com.phonebook.TestBase -- *************************ALL TEST END*****************************
