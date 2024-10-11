@@ -10,8 +10,13 @@ import org.testng.annotations.Test;
 public class LoginTests extends TestBase {
     @BeforeMethod
     public void preconditions() {
-        //logger.info("Hello****** @BeforeSuite");
+        if(app.getUserHelper().isSignOutButtonPresent()) {
+            app.getUserHelper().logout();
+        }
+        app.driver.get("https://telranedu.web.app/login");
     }
+        //logger.info("Hello****** @BeforeSuite");
+
 
     //метод который будет выполнять логин нашего user
     @Test

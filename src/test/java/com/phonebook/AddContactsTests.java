@@ -9,8 +9,10 @@ public class AddContactsTests extends TestBase {
     private final String CONTACT_NAME = "TestName";
 
     @BeforeMethod
-    public void preConditions() {
-        app.getUserHelper().login("positiveexample@example.com", "Qwery12345@");
+    public void preConditions() {//если кнопки SignOutButton нет, то делаем логин
+        if (!app.getUserHelper().isSignOutButtonPresent()) {
+            app.getUserHelper().login("positiveexample@example.com", "Qwery12345@");
+        }
     }
 
     @Test(invocationCount = 1, priority = 1)
