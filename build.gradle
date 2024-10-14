@@ -35,6 +35,6 @@ def registerTask(String taskName, String suitePath) {// suitPath путь к н�
 
 registerTask('smoke', 'src/test/resources/smoke.xml')
 registerTask('regression', 'src/test/resources/regression.xml')
-
+registerTask('login', 'src/test/resources/login.xml')
 
 
